@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.calculator{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.display{
+    width: 215px;
+    height: 50px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+.actions{
+    width: 215px;
+    height: 205px;
+    border: 1px solid black;
+}
+.numBtn{
+    width: 50px;
+    height: 50px;
+    padding:5%;
+    
+}
+.op{
+    width: 50px;
+    height: 50px;
+    padding: 5%;
+}
